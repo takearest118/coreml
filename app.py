@@ -57,7 +57,7 @@ def main():
 
     # Use PIL to load and resize the image to expected size
     from PIL import Image
-    example_image = Image.open("./images/daisy.jpg").resize((224, 224))
+    example_image = Image.open("./images/orange.jpg").resize((224, 224))
 
     # Make a prediction using Core ML
     out_dict = model.predict({"input_1": example_image})
