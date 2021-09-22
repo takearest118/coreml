@@ -7,7 +7,7 @@ cachetools==4.1.1
 certifi==2020.6.20
 chardet==3.0.4
 coremltools==4.0b1
-Django==3.0.8
+Django==3.1.13
 gast==0.3.3
 google-auth==1.19.1
 google-auth-oauthlib==0.4.1
